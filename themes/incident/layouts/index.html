@@ -4,7 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <style>
+        :root {
+          --institutional-black: #1a1a1a;
+          --paper-cream: #d4d0c8;
+          --gov-green: #2d5016;
+          --classified-red: #c41e3a;
+          --institutional-gray: #666;
+          --text-gray: #444;
+        }
+        
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        html, body {
+          background: linear-gradient(135deg, #e8e4dc 0%, #d4d0c8 100%);
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+          color: var(--text-gray);
+          line-height: 1.6;
+          min-height: 100vh;
+        }
+        
+        .container {
+          max-width: 720px;
+          margin: 0 auto;
+          padding: 3rem 2rem;
+        }
+        
+        h1 {
+          font-family: 'Courier New', Courier, monospace;
+          font-weight: bold;
+          letter-spacing: 2px;
+          color: var(--institutional-black);
+          text-transform: uppercase;
+          font-size: 2.5rem;
+          line-height: 1.2;
+          margin: 0 0 2rem;
+          text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+        }
+        
+        p {
+          margin: 1rem 0;
+          font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
