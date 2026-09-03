@@ -1,6 +1,6 @@
 baseURL = "https://jupiterstrain.github.io/incident-1961/"
 languageCode = "en-us"
-title = "My Site"
+title = "The Incident - 1961"
 theme = "incident"
 
 [params]
