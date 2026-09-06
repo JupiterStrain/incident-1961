@@ -1,0 +1,21 @@
+{{ define "main" }}
+<p class="crumb"><a href="{{ .Site.Home.RelPermalink }}">/PROJECT-APEX</a> /
+{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} /
+{{ with .Params.document_code }}{{ . }}{{ else }}{{ .Title }}{{ end }}.txt</p>
+
+<div class="docmeta">
+<span class="stamp big">{{ .Params.classification | default "CLASSIFIED" }}</span>
+<dl>
+<dt>Document code</dt><dd>{{ .Params.document_code | default "[REDACTED]" }}</dd>
+<dt>Date of record</dt><dd>{{ .Date.Format "2 January 2006" }}</dd>
+<dt>Facility</dt><dd>{{ .Params.facility | default "[REDACTED]" }}</dd>
+<dt>Author</dt><dd>{{ .Params.author | default "[REDACTED]" }}</dd>
+<dt>Distribution</dt><dd>{{ .Params.distribution | default "[REDACTED]" }}</dd>
+</dl>
+</div>
+
+<pre class="doc">{{ .RawContent }}</pre>
+
+<p class="note">End of file. Retrieved from PROJECT-APEX/{{ with .Parent }}{{ .Title }}{{ end }}/.
+{{ with .Parent }}<a href="{{ .RelPermalink }}">Return to directory</a>.{{ end }}</p>
+{{ end }}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+<div class="banner">WARNING — CLASSIFIED MATERIALS — UNAUTHORIZED ACCESS AND DISSEMINATION ARE PROHIBITED UNDER FEDERAL STATUTE</div>
+<div class="container">
+{{ block "main" . }}{{ end }}
+<footer class="sitefoot">
+<hr>
+<p>OFFICE OF CIVIL AEROSPACE CONTINGENCY &middot; RECORDS DIVISION<br>
+SERVER INDEX GENERATED AUTOMATICALLY &middot; DO NOT CITE &middot; DO NOT DISTRIBUTE</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+baseURL = "https://jupiterstrain.github.io/incident-1961/"
+title = "THE INCIDENT - 1961"
+theme = "incident"
+
+# languageCode moved under [languages] — the root-level key is deprecated
+# in current Hugo and was producing a warning on every build.
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    weight = 1
+
+[params]
+  description = "A repository of declassified documents, procedural records and recovered materials relating to an unexplained incident at a remote research installation."
+
+# No taxonomies. This is a file server, not a blog — tag and category pages
+# would be the one thing on the site that gives away that it is a blog.
+[taxonomies]

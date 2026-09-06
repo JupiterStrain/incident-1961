@@ -1,0 +1,18 @@
+# Hugo
+public/
+resources/
+.DS_Store
+
+# Claude data export - never commit
+manifest-*.json
+*.zip
+claude-export/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Screenshots the Claude desktop app saves here
+Claude outputs/
+
+# Safety copy of the old repository history, kept until the new push is confirmed
+.git-backup-*

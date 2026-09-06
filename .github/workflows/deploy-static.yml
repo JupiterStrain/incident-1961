@@ -1,0 +1,39 @@
+# DISABLED — kept for reference only.
+#
+# This workflow deployed the repository as raw files, which is what put the
+# hand-written index.html at the repo root on the live site. The site is now
+# built by Hugo (see hugo.yml), and two workflows deploying to Pages at the
+# same time overwrite each other's output — which is what made the site look
+# like it was ignoring every change.
+#
+# It no longer runs on push. It can only be started by hand from the Actions
+# tab, and starting it will replace the Hugo site with the old static page.
+
+name: Deploy static content (DISABLED)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1>{{ .Site.Title }}</h1>
+<p class="lede">{{ .Site.Params.description }}</p>
+
+{{ with .Site.GetPage "/archive" }}
+<h2>Index of /PROJECT-APEX/</h2>
+<div class="listing-wrap">
+<table class="listing">
+<thead>
+<tr><th class="c-name">Name</th><th class="c-count">Files</th><th class="c-class">Class</th></tr>
+</thead>
+<tbody>
+{{ range .Sections.ByTitle }}
+<tr>
+<td class="c-name"><a href="{{ .RelPermalink }}">{{ .Title }}/</a></td>
+<td class="c-count">{{ len .RegularPages }}</td>
+<td class="c-class"><span class="stamp">TOP SECRET</span></td>
+</tr>
+{{ end }}
+</tbody>
+</table>
+</div>
+{{ end }}
+
+<p class="note">Directory listing enabled. Contents follow the original filing structure.
+Files are presented as recovered. Redactions are present in the source documents.</p>
+{{ end }}

@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $isRoot := eq .RelPermalink .Site.Home.RelPermalink }}
+<p class="crumb"><a href="{{ .Site.Home.RelPermalink }}">/PROJECT-APEX</a>{{ if not (eq .Title "PROJECT-APEX") }} / {{ .Title }}{{ end }}</p>
+<h1>Index of /PROJECT-APEX/{{ if not (eq .Title "PROJECT-APEX") }}{{ .Title }}/{{ end }}</h1>
+{{ with .Content }}<div class="sectionnote">{{ . }}</div>{{ end }}
+
+<div class="listing-wrap">
+<table class="listing">
+<thead>
+<tr><th class="c-name">Name</th><th class="c-date">Date of record</th><th class="c-size">Size</th><th class="c-class">Class</th></tr>
+</thead>
+<tbody>
+<tr><td class="c-name"><a href="{{ with .Parent }}{{ .RelPermalink }}{{ else }}{{ $.Site.Home.RelPermalink }}{{ end }}">../</a></td><td></td><td></td><td></td></tr>
+{{ range .Sections.ByTitle }}
+<tr>
+<td class="c-name"><a href="{{ .RelPermalink }}">{{ .Title }}/</a></td>
+<td class="c-date">directory</td>
+<td class="c-size">{{ len .RegularPages }}<span class="unit"> files</span></td>
+<td class="c-class"><span class="stamp">TOP SECRET</span></td>
+</tr>
+{{ end }}
+{{ range .RegularPages.ByDate }}
+<tr>
+<td class="c-name"><a href="{{ .RelPermalink }}">{{ with .Params.document_code }}{{ . }}{{ else }}{{ .Title }}{{ end }}.txt</a></td>
+<td class="c-date">{{ .Date.Format "2006-01-02" }}</td>
+<td class="c-size">{{ printf "%.1f" (div (float (len .RawContent)) 1024.0) }}<span class="unit">K</span></td>
+<td class="c-class"><span class="stamp">{{ .Params.classification | default "CLASSIFIED" }}</span></td>
+</tr>
+{{ end }}
+</tbody>
+</table>
+</div>
+
+<p class="note">{{ if .Sections }}{{ len .Sections }} director{{ if eq (len .Sections) 1 }}y{{ else }}ies{{ end }}. {{ end }}{{ len .RegularPages }} file(s){{ if .RegularPages }}, sorted by date of record{{ end }}.</p>
+{{ end }}

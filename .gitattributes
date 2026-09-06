@@ -1,0 +1,12 @@
+# Normalise line endings. Without this, files checked out on Windows come
+# back to git as CRLF and every file shows as modified even when nothing
+# has changed. Text is stored LF in the repository and checked out however
+# the platform prefers.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary
+*.zip binary
+*.pdf binary
