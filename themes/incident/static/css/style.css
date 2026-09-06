@@ -252,3 +252,9 @@ pre.doc {
   .reel { padding: 0.5rem 0.5rem 0.4rem; }
   .reel figcaption { font-size: 0.58rem; letter-spacing: 1px; }
 }
+
+/* The one out-of-universe link on the site, kept in the register of the file
+   footer rather than styled as a call to action. */
+.sitefoot .mirror { margin-top: 0.75rem; }
+.sitefoot .mirror a { color: var(--classified-red); text-decoration: underline; }
+.sitefoot .mirror a:hover { color: var(--institutional-black); }
