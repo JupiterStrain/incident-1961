@@ -95,6 +95,29 @@ The non-negotiables, restated here because the archive keeps getting them wrong:
 - The hand-written `index.html` at the repo root is left over from the static-deploy
   era. Hugo ignores it. It is not the live site any more.
 
+## Recovered footage
+
+`content/archive/RECOVERED-FOOTAGE/` holds film fragments. Each page uses
+`layout: reel` in its front matter, which selects
+`themes/incident/layouts/_default/reel.html` — a metadata block, a player, then
+the typed transfer record rendered verbatim like every other document.
+
+Front matter needs `reel:` (the mp4 filename) and `poster:` (a still), both
+relative to `static/media/`. Everything else matches the standard document.
+
+Two rules for this section:
+
+- **The video plays inside the archive, never in an embedded player.** A YouTube
+  frame, with its logo and its suggested videos, ends the illusion the instant it
+  loads. Self-hosting is the point, not a cost saving.
+- **Write the transfer record in the voice of a film technician**, not a producer.
+  The Film Section notices small wrong things — a leader that runs too long, a
+  frame line nobody corrected, a plate that has no business in a training film —
+  and records them without drawing a conclusion.
+
+Keep this section for short fragments. GitHub Pages is a site host, not a video
+host; the finished eight-minute film goes on a video platform and gets linked.
+
 ## Adding a document
 
 `docs/templates/` holds a template per document type and a plain-language

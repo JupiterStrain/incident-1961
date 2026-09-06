@@ -1,0 +1,33 @@
+{{ define "main" }}
+<p class="crumb"><a href="{{ .Site.Home.RelPermalink }}">/PROJECT-APEX</a> /
+{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} /
+{{ with .Params.document_code }}{{ . }}{{ else }}{{ .Title }}{{ end }}</p>
+
+<div class="docmeta">
+<span class="stamp big">{{ .Params.classification | default "CLASSIFIED" }}</span>
+<dl>
+<dt>Reel</dt><dd>{{ .Params.document_code | default "[REDACTED]" }}</dd>
+<dt>Date of record</dt><dd>{{ .Date.Format "2 January 2006" }}</dd>
+<dt>Running time</dt><dd>{{ .Params.runtime | default "[REDACTED]" }}</dd>
+<dt>Format</dt><dd>{{ .Params.format | default "16 mm, mute optical track" }}</dd>
+<dt>Condition</dt><dd>{{ .Params.condition | default "[REDACTED]" }}</dd>
+</dl>
+</div>
+
+{{ with .Params.reel }}
+<figure class="reel">
+<video controls preload="metadata" playsinline
+       {{ with $.Params.poster }}poster="{{ printf "media/%s" . | relURL }}"{{ end }}>
+  <source src="{{ printf "media/%s" . | relURL }}" type="video/mp4">
+  This viewer cannot display the reel. The file is at
+  <a href="{{ printf "media/%s" . | relURL }}">{{ . }}</a>.
+</video>
+<figcaption>TRANSFER COPY &middot; NO AUDIO RESTORATION &middot; DO NOT DUPLICATE</figcaption>
+</figure>
+{{ end }}
+
+<pre class="doc">{{ .RawContent }}</pre>
+
+<p class="note">End of record.
+{{ with .Parent }}<a href="{{ .RelPermalink }}">Return to directory</a>.{{ end }}</p>
+{{ end }}
