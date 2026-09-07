@@ -33,10 +33,10 @@ last one.
     0715    Dock. Two crates in, signed for.
     0830    Level ██ corridor lamp out, replaced.
     0905    Boiler. Blowdown.
-    1010    Tea.
+    1010    Break.
     1035    Dock. Nothing.
     1120    Level ██, radiator ███ knocking. Bled it.
-    1200    Dinner.
+    1200    Lunch.
     1245    Plant room. Pressure normal.
     1330    Went down.
     1402    Alarm.
@@ -49,7 +49,7 @@ level, no job, no plant item and no signature against it, and in
 ██ years this man has never written a line like that in a log.
 
 Every other entry on this page is in the form he has used since he was
-engaged: place, item, action. He writes "No 2 compressor". He writes
+hired: place, item, action. He writes "No 2 compressor". He writes
 "radiator knocking". He does not write "went".
 
 I have asked him what the entry means. He read it, and he agreed it was

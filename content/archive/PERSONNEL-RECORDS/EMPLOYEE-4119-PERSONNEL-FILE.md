@@ -27,7 +27,7 @@ PERSONNEL FILE - EMPLOYEE 4119
     Number              4119
     Name                [REDACTED]
     Age                 ██
-    Engaged             █████████████
+    Hired               █████████████
     Grade               Technician, █████████ (maintenance)
     Section             Plant and Services
     Clearance           Level 2
@@ -40,7 +40,7 @@ Steam plant, water plant, compressors, the loading dock, and the fabric
 of Levels ██ and ██.
 
 Employee 4119 is not a scientist and does not hold a technical
-qualification. He was engaged as a fitter. His clearance does not admit
+qualification. He was hired as a steamfitter. His clearance does not admit
 him to a quarantine bay and there is no record of it ever having been
 raised.
 

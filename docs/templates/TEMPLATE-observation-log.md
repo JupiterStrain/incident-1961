@@ -38,7 +38,7 @@ CRANIAL CIRCUMFERENCE: <NN.N> CM
 <The number is the only thing in this document that should alarm anyone,
 and the document should not notice.>
 
-BEHAVIOUR
+BEHAVIOR
 
 <One concrete, small, wrong thing. It waited somewhere before there was
 anything to wait for. It watched the hands and not the face. It turned

@@ -38,11 +38,11 @@ ENGINEERING DIVISION
 
     ████    Chief Engineer
     ████    Inspector
-    ████    Fitter
+    ████    Steamfitter
 
 PLANT AND SERVICES
 
-    4119      Technician, maintenance
+    4119    Technician, maintenance
     ████    Technician, maintenance
     ████    Supervisor
 

@@ -32,7 +32,7 @@ THE OBJECTS
 Five were recovered. All five are of the same construction and all five
 came out of the subject.
 
-Each is a shaped length of bone, approximately ███████ centimetres,
+Each is a shaped length of bone, approximately ███████ centimeters,
 tapered, and barbed along the trailing portion. The barbs are cut so that
 the object enters cleanly and does not return. Material has been
 identified as host femur.
@@ -46,7 +46,7 @@ MECHANISM OF EXPULSION
 Necropsy establishes that each object was seated behind a major vessel
 and expelled through the chest wall by the deliberate rupture of that
 vessel. The pressure available by this method is more than sufficient to
-cross a four metre room and to bury the object in a steel-lined wall,
+cross a four meter room and to bury the object in a steel-lined wall,
 which is where five of them were found.
 
 The organism spent the last of the host on the throw.
@@ -61,7 +61,7 @@ This is a well-known fact about a common insect and it is the only
 mechanism in terrestrial biology that this device resembles.
 
 The organism arrived here in November. It was in a sealed room with a
-grey wall, a steel door and one window onto a corridor, and it had six
+gray wall, a steel door and one window onto a corridor, and it had six
 days.
 
 It did not invent this in the enclosure. It learned it, and there is only

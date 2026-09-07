@@ -44,7 +44,7 @@ We have re-examined the slides prepared on admission. The material was on
 them. It was on the first slide made in this building, prepared at 1105
 on 16 November, and it was recorded on that occasion as debris.
 
-BEHAVIOUR IN CULTURE
+BEHAVIOR IN CULTURE
 
 Isolated cells: nothing. No motility, no division under any medium tried,
 no response to ██████████████. A single cell is inert and is, so far as

@@ -50,7 +50,7 @@ and are, in isolation, unremarkable, inert, and readily mistaken for
 been discarding them since the sixteenth.
 
 Isolated cells do nothing. Cultured in quantity they do nothing that
-resembles the behaviour recorded in the observation logs. What was in
+resembles the behavior recorded in the observation logs. What was in
 the enclosure was not a cell. It was a colony, and by our estimate at
 terminal it numbered on the order of █████████████ individual cells
 occupying the volume of the animal.

@@ -37,7 +37,7 @@ The non-negotiables, restated here because the archive keeps getting them wrong:
 
 - The agency is the **Office of Civil Aerospace Contingency (OCAC)**. Not the
   Department of Defense. A 4:11 orbital flight on 16 November 1961 is so far ahead
-  of the public programme that Kestrel cannot have been NASA. One number says it.
+  of the public program that Kestrel cannot have been NASA. One number says it.
 - The facility is **Recovery Station Kestrel**. A *recovery* station — recovery is
   the vector, and that is the answer to "why 1961."
 - **The Jovian Cell is microscopic.** Individual cells are single-celled and

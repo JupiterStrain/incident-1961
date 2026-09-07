@@ -62,7 +62,7 @@ who are paid to put their hands in an enclosure declined to put their
 hands in an enclosure, and neither of us can give a reason that would
 survive being written down.
 
-BEHAVIOUR
+BEHAVIOR
 
 Subject is calm. Subject remains seated facing the observation port for
 the majority of each day. It eats, it drinks, it sleeps on the ordinary

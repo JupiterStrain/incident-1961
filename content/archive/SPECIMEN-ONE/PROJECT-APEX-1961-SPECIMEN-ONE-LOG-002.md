@@ -52,13 +52,13 @@ Engineering has re-verified the tape and the technician has been observed
 taking the measurement. The measurement is correct.
 
 I record the following for the file. A chimpanzee of this age does not
-gain three and a half centimetres of cranial circumference in three days.
-A chimpanzee of this age does not gain three and a half centimetres of
-cranial circumference. The subject is not in discomfort, is not favouring
+gain three and a half centimeters of cranial circumference in three days.
+A chimpanzee of this age does not gain three and a half centimeters of
+cranial circumference. The subject is not in discomfort, is not favoring
 its head, and shows no sign of the ████████████████████████ that would
 accompany any process I am able to name.
 
-BEHAVIOUR
+BEHAVIOR
 
 Subject continues to observe hands.
 

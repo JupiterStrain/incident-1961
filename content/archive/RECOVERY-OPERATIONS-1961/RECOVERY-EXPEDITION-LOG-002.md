@@ -57,7 +57,7 @@ REMARK
 The vehicle was clean. Every inspection has said so. The occupant was
 healthy. Every examination has said so.
 
-The station has spent a fortnight asking how something got in. On the
+The station has spent a two weeks asking how something got in. On the
 evidence available to this detachment, nothing got in. We flew up through
 it, and then we brought it down, and we did that on purpose, and we did it
 correctly, and we have the paperwork to show we did it correctly.

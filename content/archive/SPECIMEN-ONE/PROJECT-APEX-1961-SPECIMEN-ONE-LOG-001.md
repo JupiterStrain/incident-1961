@@ -50,7 +50,7 @@ Recorded at 1400 by ██████████████. This is the base
 subsequent measurements are to be taken by the same technician, at the
 same hour, with the same tape.
 
-BEHAVIOUR
+BEHAVIOR
 
 Subject is calm. Subject is markedly calmer than the two control animals
 housed in ██████████████████, both of which flew shorter profiles and both

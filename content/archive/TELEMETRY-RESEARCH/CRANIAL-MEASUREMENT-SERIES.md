@@ -49,7 +49,7 @@ increments are 0.7, 0.5, 0.1.
 That is not acceleration. That is a curve that is flattening.
 
 If the four increments are fitted and the fit is projected, the series
-approaches a limit in the region of ████ centimetres. The
+approaches a limit in the region of ████ centimeters. The
 projection puts the approach at D+7 or D+8.
 
 We are asked what happens at the limit. We are a telemetry section and

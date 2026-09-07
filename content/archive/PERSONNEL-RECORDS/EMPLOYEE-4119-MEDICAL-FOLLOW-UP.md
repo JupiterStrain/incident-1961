@@ -53,7 +53,7 @@ worked every day since. Supervisor confirms attendance and confirms the
 standard of work is unchanged.
 
 Weight down ██████ pounds. Patient attributes this to the
-canteen being shut.
+lunchroom being shut.
 
 EXAMINATION, 6 DECEMBER
 
@@ -61,7 +61,7 @@ No wound.
 
 Temperature elevated four degrees and holding.
 
-Patient is in good health by every measure available to me. Colour good.
+Patient is in good health by every measure available to me. Color good.
 Appetite good. Sleeping normally. He asked after my daughter by name,
 which I had not mentioned to him, and which I mention here only because
 the file is required to be complete.

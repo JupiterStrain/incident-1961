@@ -26,7 +26,7 @@ DISTRIBUTION:       [REDACTED] ONLY
 
     Number              <NNNN>
     Name                [REDACTED]
-    Engaged             █████████████
+    Hired               █████████████
     Grade               <Trade or grade>
     Section             <Section>
     Clearance           <Level>
